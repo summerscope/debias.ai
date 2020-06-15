@@ -20,7 +20,7 @@
 html {
   color: black;
   font-size: 1.5em;
-  line-height: 1.25;
+  line-height: 1.35;
   background-color: #eaeaea;
 }
 
@@ -39,6 +39,7 @@ h1 {
 h1, h2, h3, h4, h5, h6 {
   font-family: 'EllographCF', sans-serif;
   color: black;
+  line-height: 1.1;
 }
 
 a {

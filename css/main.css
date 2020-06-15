@@ -11,8 +11,14 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
+@font-face {
+  font-family: 'EllographCF';
+  src:  url('../css/EllographCF-DemiBold/font.woff2') format('woff2'),
+        url('../css/EllographCF-DemiBold/font.woff') format('woff');
+}
+
 html {
-  color: white;
+  color: black;
   font-size: 1.5em;
   line-height: 1.25;
   background-color: #aeaeae;
@@ -22,7 +28,7 @@ body {
   max-width: 30em;
   padding: 0 1em;
   margin: 0 auto;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 h1 {
@@ -30,8 +36,8 @@ h1 {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Alfa Slab One', sans-serif;
-  font-weight: 400;
+  font-family: 'EllographCF', sans-serif;
+  color: black;
 }
 
 a {
@@ -40,15 +46,12 @@ a {
 }
 
 a, a:link, a:visited {
-  color: darkblue;
+  color: #0C00FF;
   text-decoration: underline;
-  background: #e9bf97;
-  transition: all 200ms ease;
 }
 
 a:hover, a:focus, a:active {
   text-decoration: none;
-  background: #ffa58d;
 }
 
 small {
